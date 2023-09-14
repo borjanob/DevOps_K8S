@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: ticket-app
-          image: borjanob/ticket_app:app.v2
+          image: borjanob/ticket_app:regular
           ports: 
             - containerPort: 80
